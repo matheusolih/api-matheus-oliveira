@@ -28,6 +28,7 @@ class NpsController {
 
     const totalAnswers = surveysUsers.length;
 
+    //fórmula para calcular o NPS
     const calculate = (((promoters - detractor) / totalAnswers) * 100).toFixed(
       2
     );
